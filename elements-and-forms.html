@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- Roman numeral ordered list -->
+    <h2>Course Outline</h2>
+    <ol type="I">
+        <li>HTML Basics</li>
+        <li>Advanced Elements</li>
+        <li>Forms and Validation</li>
+        <li>Multimedia Integration</li>
+        <li>Best Practices</li>
+    </ol>
+
+    <!-- External image -->
+    <h2>Featured Image</h2>
+    <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg" 
+         alt="Web Development Setup" 
+         width="600" 
+         height="400">
+
+    <!-- Contact Table -->
+    <h2>Contact Directory</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>555-0101</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave</td>
+                <td>555-0102</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob Wilson</td>
+                <td>789 Pine Rd</td>
+                <td>555-0103</td>
+                <td>bob@example.com</td>
+            </tr>
+            <tr>
+                <td>Alice Brown</td>
+                <td>321 Elm St</td>
+                <td>555-0104</td>
+                <td>alice@example.com</td>
+            </tr>
+            <tr>
+                <td>Charlie Davis</td>
+                <td>654 Maple Dr</td>
+                <td>555-0105</td>
+                <td>charlie@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <div>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required 
+                   minlength="8" placeholder="Minimum 8 characters">
+        </div>
+        <div>
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </div>
+        <div>
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Choose a course</option>
+                <option value="html">HTML5</option>
+                <option value="css">CSS3</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+        </div>
+        <div>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <p>Interests:</p>
+            <input type="checkbox" id="frontend" name="interests" value="frontend">
+            <label for="frontend">Frontend Development</label>
+            <input type="checkbox" id="backend" name="interests" value="backend">
+            <label for="backend">Backend Development</label>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Web Design</label>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html></ol></html>
